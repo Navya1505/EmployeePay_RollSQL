@@ -56,7 +56,7 @@ select name,max(salary) from employee_payroll group by name
 alter table employee_payroll add phone varchar(13),
 address varchar(100) default 'India' not null,
 department varchar(30) default 'CS' not null;
-update employee_payroll set phone = '9603083843' where name ='pavan'
+update employee_payroll set phone = '7396523229' where name ='navya'
 select * from employee_payroll
 
 -- adding and deleting column,rows 
